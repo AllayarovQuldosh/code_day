@@ -58,59 +58,48 @@
 // console.log(parsed);
 
 
+// const obb = {
+//     "squadName": "Super hero squad", // < here
+//     "homeTown": "Metro City",
+//     "formed": 2016,
+//     "secretBase": "Super tower",
+//     "active": true,
+//     "members": [
+//       {
+//         "name": "Molecule Man", // < here
+//         "age": 29, // < here
+//         "secretIdentity": "Dan Jukes",
+//         "powers": [
+//           "Radiation resistance",
+//           "Turning tiny",
+//           "Radiation blast" // < here
+//         ]
+//       },
+//       {
+//         "name": "Madame Uppercut",
+//         "age": 39,
+//         "secretIdentity": "Jane Wilson",
+//         "powers": [
+//           "Million tonne punch",
+//           "Damage resistance",
+//           "Superhuman reflexes"
+//         ]
+//       },
+//       {
+//         "name": "Eternal Flame",
+//         "age": 1000000,
+//         "secretIdentity": "Unknown",
+//         "powers": [
+//           "Immortality", 
+//           "Heat Immunity",
+//           "Inferno",
+//           "Teleportation",
+//           "Interdimensional travel"
+//         ]
+//       }
+//     ]
+//   }
 
 
-
-
-
-
-
-
-
-
-
-const obb = {
-    "squadName": "Super hero squad", // < here
-    "homeTown": "Metro City",
-    "formed": 2016,
-    "secretBase": "Super tower",
-    "active": true,
-    "members": [
-      {
-        "name": "Molecule Man", // < here
-        "age": 29, // < here
-        "secretIdentity": "Dan Jukes",
-        "powers": [
-          "Radiation resistance",
-          "Turning tiny",
-          "Radiation blast" // < here
-        ]
-      },
-      {
-        "name": "Madame Uppercut",
-        "age": 39,
-        "secretIdentity": "Jane Wilson",
-        "powers": [
-          "Million tonne punch",
-          "Damage resistance",
-          "Superhuman reflexes"
-        ]
-      },
-      {
-        "name": "Eternal Flame",
-        "age": 1000000,
-        "secretIdentity": "Unknown",
-        "powers": [
-          "Immortality", 
-          "Heat Immunity",
-          "Inferno",
-          "Teleportation",
-          "Interdimensional travel"
-        ]
-      }
-    ]
-  }
-
-
-let {squadName,members:[{name,age,powers:[,, r]}]} = obb
-console.log('>>>',squadName,'>>>',name,'>>>',age,'>>>',r);
+// let {squadName,members:[{name,age,powers:[,, r]}]} = obb
+// console.log('>>>',squadName,'>>>',name,'>>>',age,'>>>',r);
